@@ -110,6 +110,30 @@ a.button, a.button:link {
 	color:white;
 }
 
+/* Cast Study styles */
+
+article.case-study {
+	margin: 40px 0 0;
+}
+
+aside.case-study-sidebar {
+	float: left;
+	width: 314px;
+	margin: 0 40px 0 0;
+}
+
+
+div.case-study-images {
+	float: left;
+	width: 606px;
+}
+
+div.case-study-images img {
+	margin-bottom:50px;
+	border: 1px solid #dddddd;
+}
+
+
 
 
 /* Blog post styles */
