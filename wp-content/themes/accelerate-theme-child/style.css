@@ -110,6 +110,31 @@ a.button, a.button:link {
 	color:white;
 }
 
+.featured-work h3 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 18px;
+}
+
+.featured-work h4 {
+	text-transform: none;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.homepage-featured-work {	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	text-align: center;
+}
+
+.individual-featured-work {
+	float: left;
+	margin: 0 20px 30px 0px;
+}
+
+
 /* Cast Study styles */
 
 article.case-study {
@@ -120,6 +145,21 @@ aside.case-study-sidebar {
 	float: left;
 	width: 314px;
 	margin: 0 40px 0 0;
+}
+
+aside.case-study-sidebar h2 {
+	font-weight: normal;
+	
+}
+
+
+
+h5 {
+	color: #909090;
+	font-weight: normal;
+	margin: 0px 0 12px;
+	line-height: 1.5;
+	font-size: 14px;
 }
 
 
