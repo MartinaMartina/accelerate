@@ -19,6 +19,8 @@
  * -----------------------------------------------------------------------------
  */
 
+/* top nav styles */
+
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
     color: white;
@@ -43,7 +45,23 @@
 
 #masthead nav ul {
 	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
+
+#masthead nav ul li {
+	text-transform: uppercase;
+	font-size: 14px;
+	float: left;
+	padding: 0 10px;
+}
+
+#masthead nav ul li a:hover {
+	color: #000000;
+}
+
+
 
 
 
@@ -135,6 +153,51 @@ a.button, a.button:link {
 }
 
 
+.blog-post h3 {
+	margin: 14px 0 12px;
+}
+
+.tweeting {
+	float: right;
+	clear: right;
+	width: 40%;
+}
+
+.tweeting ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.tweeting ul li {
+	line-height: 1.5;
+	padding: 0 0 30px 0;
+	margin: 0;
+	font-weight: normal;
+}
+
+.tweeting .widget {
+	padding: 0;
+}
+	
+.recent-posts p {
+	font-size: 14px;
+	
+}
+
+
+
+.widget-title {
+	margin: 14px 0 12px;
+	color: #3b3b3b;
+	font-size: 22px;
+}
+
+.spacing {
+	height: 100px;
+	clear: both;
+}
+
 /* Cast Study styles */
 
 article.case-study {
@@ -156,10 +219,11 @@ aside.case-study-sidebar h2 {
 
 h5 {
 	color: #909090;
-	font-weight: normal;
+	font-weight: bold;
 	margin: 0px 0 12px;
 	line-height: 1.5;
 	font-size: 14px;
+	text-transform: uppercase;
 }
 
 
@@ -179,7 +243,9 @@ div.case-study-images img {
 /* Blog post styles */
 
 .blog-post {
-	width: 50%;
+	width: 40%;
+	float: left;
+	clear: left;
 }
 
 .blog-post h4 {
@@ -195,12 +261,16 @@ div.case-study-images img {
 	font-weight: bold;
 }
 
-.blog-post .read-more-link {
-	font-size: 24px;
+.read-more-link {
+	font-size: 14px;
 	font-family: 'Montserrat';
 	font-weight: bold;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+a.read-more-link {
+	color: #45ac9d;
 }
 
 /* contact form styles */
@@ -305,3 +375,14 @@ input[type="button" i] {
 }
 
 
+/* 404 */
+
+.fourohfour {
+	color: #000000;
+	font-size: 120px;
+	line-height: 125px;
+	text-align: center;
+	padding: 55px 0;
+
+	
+}
